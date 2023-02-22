@@ -1,0 +1,57 @@
+Information: Running time_based power analysis... (PWR-601)
+Information: Enabling native fsdb reader. 
+Information: Reading fsdb file '/home/rain/IC_LAB/IC_training/LAB_8/CG/FSDB/SP_SYN_CG.fsdb'
+** FSDB version : 5.8
+** FSDB Reader version : Verdi_P-2019.06-SP2-5
+** FSDB version supported upto: 5.8
+Information: The waveform options are:
+		File name:	vcd.out
+		File format:	out
+		Time interval:	1ns
+		Hierarchical level:	all
+
+Information: Power analysis is running, please wait ...
+
+Information: analysis is done for time window (0ns - 270676ns)
+
+Information: Total simulation time = 270676.000000 ns
+****************************************
+Report : Time Based Power
+Design : SP
+Version: R-2020.09
+Date   : Fri Aug 12 12:35:40 2022
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           8.310e-07 2.535e-05 4.264e-08 2.622e-05 ( 1.66%)  
+register                7.514e-04 2.764e-05 1.548e-05 7.945e-04 (50.28%)  i
+combinational           4.847e-04 2.463e-04 2.818e-05 7.592e-04 (48.04%)  
+sequential              3.263e-07 1.775e-08 7.216e-08 4.162e-07 ( 0.03%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 2.993e-04   (18.94%)
+  Cell Internal Power  = 1.237e-03   (78.29%)
+  Cell Leakage Power   = 4.377e-05   ( 2.77%)
+    Intrinsic Leakage  = 4.377e-05
+    Gate Leakage       =    0.0000
+                         ---------
+Total Power            = 1.580e-03  (100.00%)
+
+X Transition Power     = 2.718e-08
+Glitching Power        =    0.0000
+
+Peak Power             =    0.0110
+Peak Time              =     73021
+
+1

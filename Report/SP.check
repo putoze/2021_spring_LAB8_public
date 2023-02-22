@@ -1,0 +1,64 @@
+ 
+****************************************
+check_design summary:
+Version:     N-2017.09-SP2
+Date:        Fri Aug 12 12:27:41 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              40
+    Cells do not drive (LINT-1)                                    32
+    Connected to power or ground (LINT-32)                          7
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'SP', cell 'C2366' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2387' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2393' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2397' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2404' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2439' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2443' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2444' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2450' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2451' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2452' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2460' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2463' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2477' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2481' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2492' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2495' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2510' does not drive any nets. (LINT-1)
+Warning: In design 'SP', cell 'C2512' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Inv', cell 'C2430' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Inv', cell 'C2437' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Inv', cell 'C2441' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Inv', cell 'C2538' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Inv', cell 'C2549' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Inv', cell 'C2560' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Inv', cell 'C2571' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Inv', cell 'C2582' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Inv', cell 'C2593' does not drive any nets. (LINT-1)
+Warning: In design 'Modular_Mul', cell 'C934' does not drive any nets. (LINT-1)
+Warning: In design 'Sort', cell 'C604' does not drive any nets. (LINT-1)
+Warning: In design 'Sort', cell 'C627' does not drive any nets. (LINT-1)
+Warning: In design 'Sort', cell 'C631' does not drive any nets. (LINT-1)
+Warning: In design 'SP', a pin on submodule 'U_inst_C' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'in_data[17]' is connected to logic 0. 
+Warning: In design 'SP', a pin on submodule 'U_inst_C' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'in_data[16]' is connected to logic 0. 
+Warning: In design 'SP', a pin on submodule 'U_inst_C' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'in_data[15]' is connected to logic 0. 
+Warning: In design 'SP', a pin on submodule 'U_inst_C' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'in_data[14]' is connected to logic 0. 
+Warning: In design 'SP', a pin on submodule 'U_inst_C' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'in_data[13]' is connected to logic 0. 
+Warning: In design 'SP', a pin on submodule 'U_inst_C' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'in_data[12]' is connected to logic 0. 
+Warning: In design 'SP', a pin on submodule 'U_inst_C' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'in_data[11]' is connected to logic 0. 
+Warning: In design 'SP', the same net is connected to more than one pin on submodule 'U_inst_C'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'in_data[17]', 'in_data[16]'', 'in_data[15]', 'in_data[14]', 'in_data[13]', 'in_data[12]', 'in_data[11]'.
+1

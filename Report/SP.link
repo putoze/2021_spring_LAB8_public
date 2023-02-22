@@ -1,0 +1,10 @@
+
+  Linking design 'SP'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (6 designs)               /home/rain/IC_LAB/IC_training/LAB_8/CG/SP.db, etc
+  slow (library)              /usr/cad/Design_Kit/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db
+  fast (library)              /usr/cad/Design_Kit/CBDK_IC_Contest_v2.5/SynopsysDC/db/fast.db
+  dw_foundation.sldb (library) /usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb
+
+1

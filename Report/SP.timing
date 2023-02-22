@@ -1,0 +1,67 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SP
+Version: N-2017.09-SP2
+Date   : Fri Aug 12 12:28:41 2022
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: Inv_inst/pulse_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Inv_inst/data_A_r_reg[4][17]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Inv_inst/pulse_reg/CK (DFFRX4)                          0.00       0.00 r
+  Inv_inst/pulse_reg/QN (DFFRX4)                          0.31       0.31 r
+  Inv_inst/U52/Y (INVXL)                                  0.08       0.38 f
+  Inv_inst/U8/Y (CLKBUFX3)                                0.29       0.67 f
+  Inv_inst/U915/Y (AO22X1)                                0.38       1.05 f
+  Inv_inst/U12/Y (INVXL)                                  0.43       1.49 r
+  Inv_inst/U1256/Y (OAI22XL)                              0.17       1.66 f
+  Inv_inst/U1257/Y (OAI32XL)                              0.15       1.81 r
+  Inv_inst/U1582/S (ADDFXL)                               0.65       2.46 f
+  Inv_inst/U1583/CO (ADDFX1)                              0.39       2.85 f
+  Inv_inst/U1616/CO (ADDFX1)                              0.28       3.13 f
+  Inv_inst/U1625/CO (ADDFX1)                              0.27       3.40 f
+  Inv_inst/U686/CO (ADDFXL)                               0.37       3.77 f
+  Inv_inst/U520/CO (ADDFXL)                               0.38       4.14 f
+  Inv_inst/U523/CO (ADDFXL)                               0.38       4.52 f
+  Inv_inst/U524/CO (ADDFXL)                               0.38       4.90 f
+  Inv_inst/U525/CO (ADDFXL)                               0.38       5.27 f
+  Inv_inst/U526/CO (ADDFXL)                               0.38       5.65 f
+  Inv_inst/U527/CO (ADDFXL)                               0.38       6.02 f
+  Inv_inst/U528/CO (ADDFXL)                               0.39       6.41 f
+  Inv_inst/U1957/CO (ADDFX1)                              0.29       6.70 f
+  Inv_inst/U1959/CO (ADDFX1)                              0.28       6.98 f
+  Inv_inst/U1961/Y (AOI2BB2X1)                            0.25       7.23 f
+  Inv_inst/U1962/Y (AOI2BB2X1)                            0.23       7.46 f
+  Inv_inst/U2020/Y (AO22X1)                               0.32       7.78 f
+  Inv_inst/data_A_r_reg[4][17]/D (DFFRX1)                 0.00       7.78 f
+  data arrival time                                                  7.78
+
+  clock clk (rise edge)                                   8.00       8.00
+  clock network delay (ideal)                             0.00       8.00
+  Inv_inst/data_A_r_reg[4][17]/CK (DFFRX1)                0.00       8.00 r
+  library setup time                                     -0.21       7.79
+  data required time                                                 7.79
+  --------------------------------------------------------------------------
+  data required time                                                 7.79
+  data arrival time                                                 -7.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+1
